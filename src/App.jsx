@@ -11,7 +11,9 @@ function App() {
          setInput("")
        }
   }
-  console.log(todos);
+
+ 
+
   return (
    <div className="w-full h-full absolute bg-gradient-to-r from-blue-700 to-emerald-400 flex items-center justify-center">
         <div className="bg-white bg-opacity-95 shadow-xl rounded-lg p-16">
@@ -19,8 +21,7 @@ function App() {
           <div className="flex mb-4">
             <input
             value={input}
-            onChange={(e) => setInput(e.target.value)}
-
+            onChange={(e) => setInput(e.target.value)}            
             className="
                placeholder-black border-2
                border-blue-500 px-3 py-2 rounded-l-lg
